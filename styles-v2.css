@@ -20,7 +20,7 @@ a{ color:inherit; text-underline-offset:3px; }
 a:hover{ text-decoration-thickness:2px; }
 
 .sep{
-  margin: 22px 0;
+  margin: 18px 0;
   opacity: .9;
 }
 .sep::before{
@@ -49,4 +49,5 @@ h2{
 .work .title{ font-weight: 650; }
 
 .footer{ margin-top: 26px; }
+
 
