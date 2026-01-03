@@ -13,6 +13,7 @@ main{
   max-width: var(--max);
   margin: 0 auto;
   padding: 36px 22px 80px;
+  transform: translateX(-10px);
 }
 
 a{ color:inherit; text-underline-offset:3px; }
@@ -48,3 +49,4 @@ h2{
 .work .title{ font-weight: 650; }
 
 .footer{ margin-top: 26px; }
+
