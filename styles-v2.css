@@ -69,9 +69,9 @@ h2{
 }
 
 .icon{
-  width:8px;
-  height:8px;
-  opacity:0.8;
+  width:18px;
+  height:18px;
+  display:inline-block;
 }
 
 .social:hover .icon{
