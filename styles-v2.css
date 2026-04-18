@@ -88,6 +88,10 @@ h2{
   height:18px;
   display:inline-block;
 }
+.insta-icon svg{
+  width:18px;
+  height:18px;
+}
 
 .art-img{
   max-width:100%;
