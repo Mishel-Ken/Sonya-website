@@ -68,7 +68,8 @@ h2{
 }
 
 .work .title{
-  font-weight:650;
+  font-weight:600;
+  letter-spacing:0.3px;
 }
 
 .footer{
@@ -91,9 +92,9 @@ h2{
 .art-img{
   max-width:100%;
   height:auto;
-  margin:10px 0;
+  margin:14px 0;
   display:block;
-  border-radius:2px;
+  border-radius:3px;
 }
 
 /* artwork layout improvement */
