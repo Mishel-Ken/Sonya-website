@@ -126,3 +126,8 @@ h2{
 .work div{
   margin:2px 0;
 }
+.email-icon{
+  font-size:14px;
+  line-height:1;
+  display:inline-block;
+}
