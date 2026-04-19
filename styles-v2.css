@@ -149,10 +149,10 @@ section{
 /* artist name styling similar to reference site */
 
 .artist-name{
-  font-family: system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
-  font-size:26px;
+  font-family: "Baskerville", "Times New Roman", serif;
+  font-size:28px;
   font-weight:500;
-  letter-spacing:0.3px;
+  letter-spacing:0.4px;
   margin-bottom:10px;
 }
 
