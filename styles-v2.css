@@ -100,18 +100,45 @@ section{
   margin-bottom:10px;
 }
 
-.art-img{
-  width:100%;
-  max-width:760px;
-  height:auto;
-  margin:16px 0 14px;
-  display:block;
-  border-radius:3px;
+.work-grid{
+  display:grid;
+  grid-template-columns: 220px 1fr;
+  gap:28px;
+  align-items:start;
 }
 
-.work div{
-  margin:2px 0;
+.work-meta{
+  padding-top:4px;
 }
+
+.work-meta .title{
+  margin-bottom:12px;
+}
+
+.work-meta div{
+  margin:4px 0;
+}
+
+.art-img{
+  width:100%;
+  max-width:100%;
+  height:auto;
+  display:block;
+  border-radius:3px;
+  margin:0;
+}
+
+@media (max-width: 768px){
+  .work-grid{
+    grid-template-columns: 1fr;
+    gap:16px;
+  }
+
+  .work-meta{
+    padding-top:0;
+  }
+}
+
 .email-icon{
   font-size:14px;
   line-height:1;
