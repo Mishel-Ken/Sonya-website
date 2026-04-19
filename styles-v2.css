@@ -149,7 +149,7 @@ section{
 /* artist name styling similar to reference site */
 
 .artist-name{
-  font-family: "Baskerville", "Times New Roman", serif;
+  font-family: "Times New Roman", Times, serif;
   font-size:28px;
   font-weight:500;
   letter-spacing:0.4px;
