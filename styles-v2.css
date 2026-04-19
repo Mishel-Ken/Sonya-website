@@ -1,6 +1,6 @@
 :root{
   --max: 820px;
-  --bg: #b59c79;
+  --bg: #f5efe4;
   --text: #111111;
   --muted: #6f6f6f;
 }
@@ -93,6 +93,9 @@ section{
 
 .work{
   margin:52px 0;
+  border:1px solid #cfc5b6;
+  padding:20px;
+  background:rgba(255,255,255,0.18);
 }
 
 .work .title{
