@@ -21,21 +21,23 @@ body{
 main{
   max-width:var(--max);
   margin:0 auto;
-  padding:36px 22px 80px;
+  padding:48px 22px 96px;
 }
 
 a{
   color:inherit;
-  text-underline-offset:3px;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
+  transition: opacity 0.2s ease;
 }
 
 a:hover{
-  opacity:0.7;
+  opacity:0.72;
 }
 
 .sep{
-  margin:22px 0;
-  opacity:.9;
+  margin:28px 0;
+  opacity:.75;
 }
 
 .sep::before{
@@ -51,7 +53,7 @@ h2{
   font-weight:500;
 }
 section{
-  margin-bottom:42px;
+  margin-bottom:52px;
 }
 
 .block{
@@ -171,6 +173,14 @@ section{
 .name-line{
   height:1px;
   background:#111;
-  width:100%;
+  width:100%; 
+  
   margin-bottom:28px;
+}
+.cv-entry{
+  margin:20px 0;
+}
+
+.cv-entry .muted{
+  margin-top:2px;
 }
