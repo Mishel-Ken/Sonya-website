@@ -137,7 +137,7 @@ section{
   transition: transform 0.35s ease;
 }
 
-.art-img:hover{
+.art-link:hover .art-img{
   transform: scale(1.02);
 }
 
@@ -182,4 +182,19 @@ section{
 
 .cv-entry .muted{
   margin-top:2px;
+}
+
+
+.art-link{
+  display:block;
+  text-decoration:none;
+}
+
+.art-link:hover{
+  opacity:1;
+  cursor:zoom-in;
+}
+
+.art-link:focus{
+  outline:none;
 }
