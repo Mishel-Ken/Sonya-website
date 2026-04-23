@@ -197,4 +197,7 @@ section{
 
 .art-link:focus{
   outline:none;
+} 
+.available{
+  font-weight:500;
 }
