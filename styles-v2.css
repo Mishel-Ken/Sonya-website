@@ -188,6 +188,7 @@ section{
 .art-link{
   display:block;
   text-decoration:none;
+  cursor: zoom-in;
 }
 
 .art-link:hover{
